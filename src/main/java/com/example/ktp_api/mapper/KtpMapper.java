@@ -10,6 +10,7 @@ import java.util.stream.Collectors;
 @Component
 public class KtpMapper {
 
+
     public KtpDto toDto(KtpEntity entity) {
         if (entity == null) return null;
         return KtpDto.builder()
