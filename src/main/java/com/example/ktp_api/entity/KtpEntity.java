@@ -33,4 +33,5 @@ public class KtpEntity {
 
     @Column(name = "jenis_kelamin", nullable = false)
     private String jenisKelamin;
+
 }
