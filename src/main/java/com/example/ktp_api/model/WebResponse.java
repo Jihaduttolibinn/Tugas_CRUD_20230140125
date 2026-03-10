@@ -13,4 +13,5 @@ public class WebResponse<T> {
     private String message;
     private Integer status;
     private T data;
+    
 }
