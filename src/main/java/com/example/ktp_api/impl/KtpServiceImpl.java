@@ -18,6 +18,7 @@ public class KtpServiceImpl implements KtpService {
     private final KtpRepository ktpRepository;
     private final KtpMapper ktpMapper;
 
+
     @Override
     public List<KtpDto> getAllKtp() {
         return ktpMapper.toDtoList(ktpRepository.findAll());
