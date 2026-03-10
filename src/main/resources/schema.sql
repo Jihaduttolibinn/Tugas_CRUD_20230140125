@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS KTP (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nomor_ktp VARCHAR(16) UNIQUE NOT NULL,
+    nama_lengkap VARCHAR(255) NOT NULL,
+    alamat VARCHAR(255) NOT NULL,
+    tanggal_lahir DATE NOT NULL,
+    jenis_kelamin VARCHAR(20) NOT NULL
+);
