@@ -10,4 +10,5 @@ import java.util.Optional;
 public interface KtpRepository extends JpaRepository<KtpEntity, Long> {
     Optional<KtpEntity> findByNomorKtp(String nomorKtp);
     boolean existsByNomorKtp(String nomorKtp);
+    
 }
